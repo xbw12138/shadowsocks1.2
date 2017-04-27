@@ -456,8 +456,10 @@ public class SaoYiSao extends Activity implements SurfaceHolder.Callback,
         switch (v.getId()) {
             case R.id.capture_scan_photo: // 图片识别
                 // 打开手机中的相册
-                Intent innerIntent = new Intent(Intent.ACTION_GET_CONTENT); // "android.intent.action.GET_CONTENT"
+                Intent innerIntent = new Intent(); // "android.intent.action.GET_CONTENT"
                 innerIntent.setType("image/*");
+                innerIntent.setAction(Intent.ACTION_PICK);
+                innerIntent.setData(android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 Intent wrapperIntent = Intent.createChooser(innerIntent, "选择二维码图片");
                 this.startActivityForResult(wrapperIntent, REQUEST_CODE);
                 break;
