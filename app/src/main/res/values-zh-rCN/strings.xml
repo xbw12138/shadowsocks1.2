@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">东灵山</string>
+    <string name="menu_item_switch">代理</string>
+    <string name="menu_item_toggle_global">开/关全局模式</string>
+    <string name="menu_item_about">关于</string>
+    <string name="menu_item_exit">退出</string>
+    <string name="config_url">配置地址</string>
+    <string name="config_not_set_value">未设置</string>
+    <string name="config_url_scan">扫描二维码</string>
+    <string name="config_url_manual">手动输入</string>
+    <string name="config_url_scan_hint">扫描配置地址的二维码</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_more">微博</string>
+    <string name="vpn_connected_status">已连接</string>
+    <string name="vpn_disconnected_status">已断开</string>
+    <string name="about_info">东灵山简易版，@DMT许博文 新浪微博关注获取配置</string>
+    <string name="exit_confirm_info">这将会断开VPN连接，确定要退出吗？</string>
+    <string name="err_invalid_url">无效的配置地址</string>
+    <string name="config_url_hint">ss://method:password@host:port</string>
+
+    <string name="top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+    <string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="button_ok">确定</string>
+</resources>
